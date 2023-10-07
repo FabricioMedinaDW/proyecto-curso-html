@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web DW</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(18, 189, 255), rgb(66, 142, 240));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+        .h3{
+            margin: 10px;
+            position: center;
+            font-size: 20px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>El Fascinante Mundo del Desarrollo Web: Creando el Futuro Digital</h1>
+            <ul>
+            <li><a href="index.html">DESARROLLO WEB</a></li>
+            <li><a class="active" href="Tecnologías.html">TECNOLOGÍAS</a></li>
+            <li><a href="Razones para estudiar DW.html">RAZONES PARA ESTUDIAR DW</a></li>
+            <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <article>
+        <h3 class="h3">Tecnologías más usadas en Desarrollo Web</h3>
+        <div class="container">
+            <table>
+                <colgroup>
+                    <col style="background-color: aqua;">
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                
+                </colgroup>
+                <th>TECNOLOGÍA</th>
+                <th>CLASIFICACIÓN</th>
+                <th>DIFICULTAD</th>
+                <th>DESARROLLADOR</th>
+                <tr>
+                    <td>HTML</td>
+                    <td>LENGUAJE WEB</td>
+                    <td>FÁCIL</td>
+                    <td>WORLD WIDE WEB CONSORTIUM (W3C)</td>
+
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>LENGUAJE WEB</td>
+                    <td>FÁCIL</td>
+                    <td>WORLD WIDE WEB CONSORTIUM (W3C)</td>
+
+                </tr>
+                <tr>
+                    <td>JAVA SCRIPT</td>
+                    <td>LENGUAJE DE PROGRAMACIÓN</td>
+                    <td>INTERMEDIO</td>
+                    <td>ECMASCRIPT</td>
+
+                </tr>
+                <tr>
+                    <td>JQUERY</td>
+                    <td>BIBLIOTECA DE JS</td>
+                    <td>FÁCIL</td>
+                    <td>THE JQUERY FUNDATION</td>
+
+                </tr>
+                <tr>
+                    <td>BOOTSTRAP</td>
+                    <td>FRAMEWORK FRONT-END</td>
+                    <td>INTERMEDIO</td>
+                    <td>TWITTER</td>
+
+                </tr>
+                <tr>
+                    <td>NODE.JS</td>
+                    <td>ENTORNO DE EJECUCIÓN DE JS</td>
+                    <td>DÍFICIL</td>
+                    <td>FUNDACIÓN NODE.JS</td>
+
+                </tr>
+                <tr>
+                    <td>REACT</td>
+                    <td>BIBLIOTECA DE JS</td>
+                    <td>DIFÍCIL</td>
+                    <td>FACEBOOK</td>
+
+                </tr>
+                <tr>
+                    <td>ANGULAR</td>
+                    <td>FRAMEWORK DE DW</td>
+                    <td>DIFÍCIL</td>
+                    <td>GOGGLE</td>
+
+                </tr>
+                <tr>
+                    <td>VUE.JS</td>
+                    <td>LENGUAJE WEB</td>
+                    <td>INTERMEDIO</td>
+                    <td>EVAN YOU</td>
+
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>LENGUAJE DE PROGRAMACIÓN</td>
+                    <td>FÁCIL</td>
+                    <td>PROYECTO DE CÓDIGO ABIERTO</td>
+
+                </tr>
+                <tr>
+                    <td>PYTHON</td>
+                    <td>LENGUAJE DE PROGRAMACIÓN</td>
+                    <td>INTERMEDIO</td>
+                    <td>PYTHON SOFTWARE FUNDATION</td>
+
+                </tr>
+                <tr>
+                    <td>RUBY ON RAILS</td>
+                    <td>FRAMEWORK DE DW</td>
+                    <td>DIFÍCIL</td>
+                    <td>DAVID HEINEMEIER HANSSON</td>
+
+                </tr>
+                
+
+
+
+            </table>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <p> derechos reservados &copy; 2023</p>
+    </footer>
+
+
+
+</body>
+
+</html>
